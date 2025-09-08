@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: netflix-app
-        image: nasi101/netflix:latest
+        image: nasi101/netflix:latest #change to your docker image Ex: sriramk16/netflix:latest
         ports:
         - containerPort: 80
